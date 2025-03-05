@@ -20,22 +20,21 @@ This script is designed to brute-force a Wi-Fi network's password using a list o
    Run the following command to install the required library:
    ```bash
    pip install pywifi
+   
+## Download the script:
+- Clone this repository or download the script (wifi.py) and the password list (password.txt) to your local machine.
 
-
-   Download the script:
-Clone this repository or download the script (wifi.py) and the password list (password.txt) to your local machine.
-
-How to Run the Tool
+## How to Run the Tool
 Open a terminal or command prompt:
 Navigate to the folder where you downloaded the script (wifi.py) and the password list (password.txt).
 
-Run the script:
-Use the following command to start the tool:
+## Run the script:
+### Use the following command to start the tool:
 
 bash
 Copy
 python wifi.py
-Enter the required information:
+## Enter the required information:
 
 When prompted, enter the SSID (name) of the target Wi-Fi network.
 
@@ -80,10 +79,19 @@ Copy
 
 ---
 
+### **How to Add This Content to `README.md` on GitHub:**
+
+1. Go to your repository on GitHub.
+2. Click on the `README.md` file, then click the **"Edit"** (pencil) button.
+3. Paste the content above into the file.
+4. Click **"Commit changes"** to save the updates.
+
+---
+
 ### **Explanation of the Added Sections:**
 
 1. **How to Run the Tool**:  
-   - Explains step-by-step how to run the tool, from opening the terminal to entering the required information.
+   - Explains how to run the tool, from opening the terminal to entering the required information.
 
 2. **Expected Output**:  
    - Provides an example of the output the user will see when running the tool.
@@ -91,15 +99,6 @@ Copy
 
 3. **Example Password List**:  
    - Shows an example of what the `password.txt` file might look like to help the user prepare it.
-
----
-
-### **How to Update `README.md` on GitHub:**
-
-1. Go to your repository on GitHub.
-2. Click on the `README.md` file, then click the **"Edit"** (pencil) button.
-3. Paste the updated content into the `README.md` file.
-4. Click **"Commit changes"** to save the updates.
 
 ---
 
