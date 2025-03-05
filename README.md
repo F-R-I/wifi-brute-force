@@ -1,8 +1,7 @@
 
 # WiFi Brute Force Script
-```markdown
 This script is a proof-of-concept tool for testing Wi-Fi network security. It attempts to connect to a network using a list of potential passwords. Use it responsibly and only on networks you own or have permission to test.
-```
+
 
 ## Requirements
 
