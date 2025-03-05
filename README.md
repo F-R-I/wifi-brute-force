@@ -1,50 +1,50 @@
-markdown
-Copy
 # WiFi Brute Force Script
 
-This Python script helps you test the security of a Wi-Fi network by attempting to connect using a list of potential passwords. It’s a simple tool for educational purposes, so use it responsibly!
+This script is designed to brute-force a Wi-Fi network's password using a list of potential passwords.
 
-## What You’ll Need
+## Requirements
 
-- **Python 3.x**: Make sure you have Python installed. If you don’t, grab it from [python.org](https://www.python.org/).
-- **`pywifi` library**: This library is essential for interacting with Wi-Fi networks in Python.
+- Python 3.x
+- `pywifi` library
 
-## Getting Started
+## Installation
 
-### Step 1: Install Python
-If you don’t already have Python installed, download and install it from the official website: [python.org](https://www.python.org/).
+1. **Install Python**:  
+   Make sure you have Python 3.x installed. You can download it from [python.org](https://www.python.org/).
 
-### Step 2: Install the `pywifi` Library
-Open your terminal or command prompt and run the following command to install the `pywifi` library:
+2. **Install the `pywifi` library**:  
+   Run the following command to install the required library:
+   ```bash
+   pip install pywifi
+   ```
+
+
+3. **Download the script**:  
+   Clone this repository or download the script (`wifi.py`) and the password list (`password.txt`) to your local machine.
+
+## How to Run the Tool
+
+1. **Open a terminal or command prompt**:  
+   Navigate to the folder where you downloaded the script (`wifi.py`) and the password list (`password.txt`).
+
+2. **Run the script**:  
+   Use the following command to start the tool:
+   ```bash
+   python wifi.py
+   ```
+
+3. **Enter the required information**:  
+   - When prompted, enter the **SSID** (name) of the target Wi-Fi network.
+   - Provide the **path to the password list file** (e.g., `password.txt`).
+
+4. **Wait for the results**:  
+   The script will attempt to connect to the Wi-Fi network using each password in the list. If the correct password is found, it will be displayed.
+
+## Expected Output
+
+When you run the script, you will see output similar to the following:
+
 ```bash
-pip install pywifi
-Step 3: Download the Script
-You can either clone this repository or download the script (wifi.py) and the password list (password.txt) directly to your computer.
-
-Running the Script
-Open a Terminal:
-Navigate to the folder where you saved the script (wifi.py) and the password list (password.txt).
-
-Start the Script:
-Run the script using the following command:
-
-bash
-Copy
-python wifi.py
-Enter the Details:
-
-When asked, type in the SSID (name) of the Wi-Fi network you’re testing.
-
-Provide the path to your password list file (e.g., password.txt).
-
-Wait for the Results:
-The script will try each password in the list one by one. If it finds the correct password, it’ll let you know!
-
-What You’ll See
-Here’s an example of what the output might look like:
-
-bash
-Copy
 $ python wifi.py
 Enter the SSID of the target Wi-Fi network: MyWiFi
 Enter the path to the password list file: password.txt
@@ -52,22 +52,24 @@ SSID: MyWiFi, trying password 1: password123
 SSID: MyWiFi, trying password 2: 12345678
 SSID: MyWiFi, trying password 3: qwerty
 Password found successfully: qwerty
-Breaking It Down:
-SSID: MyWiFi, trying password 1: password123:
-The script is testing the first password (password123) from your list.
+```
 
-Password found successfully: qwerty:
-If the script connects to the network, it’ll show you the correct password (in this case, qwerty).
+### Explanation of the Output:
+- **SSID: MyWiFi, trying password 1: password123**:  
+  This means the script is trying the first password (`password123`) from the list.
+- **Password found successfully: qwerty**:  
+  This means the script successfully connected to the Wi-Fi network using the password `qwerty`.
 
-Example Password List
-Your password.txt file should look something like this:
+## Example Password List (`password.txt`)
 
-Copy
+Here is an example of what your `password.txt` file might look like:
+```
 password123
 12345678
 qwerty
 admin
 letmein
 welcome
-Important Note
-This script is for educational purposes only. Always make sure you have permission to test the Wi-Fi network you’re targeting. Unauthorized access to networks is illegal and unethical. Use this tool responsibly!
+```
+## Disclaimer
+This script is for educational and ethical purposes only. Do not use it to attack networks without permission. Unauthorized access to networks is illegal and unethical.
