@@ -1,4 +1,4 @@
-```markdown
+
 # WiFi Brute Force Script
 
 This script is designed to brute-force a Wi-Fi network's password using a list of potential passwords.
@@ -15,7 +15,6 @@ This script is designed to brute-force a Wi-Fi network's password using a list o
 
 2. **Install the `pywifi` library**:  
    Run the following command to install the required library:
-```
    ```bash
    pip install pywifi
    ```
@@ -46,7 +45,7 @@ This script is designed to brute-force a Wi-Fi network's password using a list o
 
 When you run the script, you will see output similar to the following:
 
-```bash
+```markdown
 $ python wifi.py
 Enter the SSID of the target Wi-Fi network: MyWiFi
 Enter the path to the password list file: password.txt
