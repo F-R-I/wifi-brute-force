@@ -15,11 +15,11 @@ This script is designed to brute-force a Wi-Fi network's password using a list o
 
 2. **Install the `pywifi` library**:  
    Run the following command to install the required library:
+```
    ```bash
    pip install pywifi
-```
    ```
-```
+
 
 3. **Download the script**:  
    Clone this repository or download the script (`wifi.py`) and the password list (`password.txt`) to your local machine.
