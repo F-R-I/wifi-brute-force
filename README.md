@@ -45,7 +45,7 @@ This script is designed to brute-force a Wi-Fi network's password using a list o
 
 When you run the script, you will see output similar to the following:
 
-```markdown
+```bash
 $ python wifi.py
 Enter the SSID of the target Wi-Fi network: MyWiFi
 Enter the path to the password list file: password.txt
@@ -72,7 +72,5 @@ admin
 letmein
 welcome
 ```
-
 ## Disclaimer
-
 This script is for educational and ethical purposes only. Do not use it to attack networks without permission. Unauthorized access to networks is illegal and unethical.
